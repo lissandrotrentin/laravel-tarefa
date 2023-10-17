@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+  *{
+    margin: 0;
+  }
+  
+  .typewriter {
+    font-family: 'Anonymous Pro', monospace;
+    width: 70%;  
+    color: aliceblue;
+    margin-left: 180px;
+    margin-top: 40px;
+  }
+  h1 {
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+        font-weight: normal;
+
+  }
+  h1:after{
+   content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+    width: 4px;
+    animation: cursor 0.4s infinite;
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes cursor {
+    0% { opacity: 1; }
+      49% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 0; }
+  }
+
+
+.title{
+  border: 3px solid red;
+  border-radius: 0 0 20px 20px ;
+  color: red;
+  width: 1200px;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+h2{
+  margin-left: 350px;
+}
+
+.btn{
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 10px 10px 10px rgb(226, 90, 165);
+}
+
+.btn:hover{
+  background-color: rgb(255, 0, 0);
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.btns{
+
+  margin-left: 340px;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  
+}
+
+body{
+  background-color: rgb(77, 74, 74);
+  align-items: center;
+}
+
+.form-div{
+  width: 400px;
+  flex-direction: column;
+  border: 3px solid red;
+  border-radius: 20px;
+  height: 300px;
+  box-shadow: 10px 10px 10px rgb(226, 90, 165);
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+  margin-left: 28rem;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.campos{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input-login{
+  width: 250px;
+  font-size: 20px;
+  height: 35px;
+
+}
+
+
+
+label{
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.btn-login{
+  margin-top: 2rem;
+  width: 180px;
+  border: 3px solid rgb(161, 18, 18);
+  border-radius: 0 15px 0 15px ;
+  font-size: 20px;
+  height: 40px;
+}
+
+
+p{
+  margin-top: 1rem;
+  color: rgb(124, 124, 224);
+  font-weight: bolder ;
+  font-size: 25px;
+ 
+}
+
+.p{
+  color: rgb(124, 124, 224);
+  font-weight: bolder ;
+  font-size: 25px;
+  margin-top: 14px;
+  margin-left: 240px;
+}
+
+

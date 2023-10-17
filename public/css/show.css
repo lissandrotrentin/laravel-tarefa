@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(77, 74, 74);
+}
+
+h1{
+    border: 2px solid white;
+    border-radius: 15px;
+    color: aliceblue;
+    margin-top: 15px;
+   
+}
+
+.all{
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete{
+    margin-top: 10px;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    background-color: red;
+}
+
+.delete:hover{
+    background-color: black;
+}
+
+p{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mail-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputs-email{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 50px;   
+}
+
+.btn-email{
+    
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+h2{
+    margin-left: 25px;
+}
+
+.mail{
+    width: 500px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-right: 90px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+
+
+.btn-env{
+    width: 120px;
+    font-size: 20px;
+    background-color: rgb(34, 34, 231);
+}
+
+.btn-env:hover{
+    background-color: rgb(59, 59, 95);
+    
+}
+
+.file{
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.assunto{
+    font-size: 20px;
+    width: 300px;
+}
+
+li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 8px;
+}
+
+label{
+    margin-left: 25px;
+    margin-top: 30px;
+    color: white;
+}
+
+.linha{
+    font-size: 26px;
+    color: black;
+    width: 350px;
+    height: 80px;
+    margin-top: 1rem;
+    border: 3px solid rgb(95, 27, 27);
+    border-radius: 20px;
+    background-color: rgb(76, 160, 160);
+}

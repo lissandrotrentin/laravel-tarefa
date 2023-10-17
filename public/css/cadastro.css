@@ -1,0 +1,66 @@
+
+
+body{
+    background-color: rgb(77, 74, 74);
+  }
+
+  .form-login{
+    width: 600px;
+    flex-direction: column;
+    border: 3px solid red;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 10px 10px 10px rgb(226, 90, 165);
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 21rem;
+
+  }
+  
+  .form-cad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .input-login{
+    width: 250px;
+   
+    font-size: 20px;
+
+    height: 35px;
+  }
+ 
+  .btn-login{
+    width: 180px;
+    margin-top: 30px;
+    border: 3px solid rgb(161, 18, 18);
+    border-radius: 0 15px 0 15px ;
+    font-size: 20px;
+    
+    height: 40px;
+  }
+  
+  .p{
+    color: rgb(124, 124, 224);
+    font-weight: bolder ;
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+
+  .campos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  label{
+    font-size: 20px;
+    color: white;
+  }
+  
+  
+  

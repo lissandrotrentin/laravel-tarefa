@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(77, 74, 74);
+}
+
+.div{
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 60px;
+    
+}
+
+table{
+    border-radius: 20px;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    margin-top: 15px;
+    margin-right: 50px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+h1{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 0 20px 0 20px;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.log{
+    color: blue;
+    font-size: 25px;
+    margin-top: 6px;
+    margin-right: 8px;
+    border-radius: 0 12px 0 12px;
+}
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: rgb(216, 35, 35);
+    gap: 50px;
+}
+
+.inputs>div>input{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+p{
+    background-color: rgb(145, 202, 252);
+    width: 140px;
+    font-size: 23px;
+    border: 2px solid rgb(145, 202, 252);
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+
+.checks{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 249, 249);
+    gap: 100px;
+    margin-top: 25px;
+}
+
+.submit{
+    background-color: aqua;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 8px rgb(226, 90, 165);
+    
+}
+
+.form{
+    width: 70%;
+    height: 160px;
+    margin-top: 40px;
+    margin-left: 150px;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(226, 90, 165);
+}
+
+.barra{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 0 20px 0 20px;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 50px;
+}
+
+h2{
+    margin-left: 37rem;
+    font-size: 35px;
+}
